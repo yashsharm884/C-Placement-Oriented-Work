@@ -10,7 +10,7 @@ int Octal_to_Decimal(int n)
         int y = n % 10; 
         ans += x*y; 
         x *= 8; 
-        n = n / 10; 
+        n = n / 10;     
         
     }
     
